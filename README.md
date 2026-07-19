@@ -6,8 +6,6 @@ A South African social discovery app that helps you find your people based on sh
 
 LitCrowd is a safe space to meet new people in South Africa who share your interests and personality. Instead of traditional dating app mechanics, we focus on matching people with similar lifestyles and interests.
 
-## ✨ Key Features
-
 ### 🎯 Vibe Matching
 - Users answer simple questions about their weekend activities
 - Algorithm groups people with similar personalities
@@ -27,70 +25,11 @@ LitCrowd is a safe space to meet new people in South Africa who share your inter
 - See who liked you and mutual matches
 - Real-time messaging with matches
 - Location-based discovery
-
-## 🛠 Tech Stack
-
-- **Frontend**: React Native with Expo
-- **State Management**: Zustand
-- **Navigation**: React Navigation
-- **Location**: Expo Location API
-- **Audio**: Expo AV for voice recordings
-- **Storage**: AsyncStorage for local data
-
-## 🚀 Getting Started
-
+  
 ### Prerequisites
 - Node.js 18+
 - npm or yarn
 - Expo CLI
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/cleanbluefoxes101/LitCrowd.git
-cd LitCrowd
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
-
-# For iOS
-npm run ios
-
-# For Android
-npm run android
-```
-
-## 📁 Project Structure
-
-```
-src/
-├── screens/           # All app screens
-│   ├── auth/         # Login & Signup screens
-│   ├── VibeMatchScreen.tsx
-│   ├── ProfileSetupScreen.tsx
-│   ├── VoiceIntroScreen.tsx
-│   ├── MusicMoodScreen.tsx
-│   ├── MatchesScreen.tsx
-│   ├── ChatScreen.tsx
-│   └── ProfileScreen.tsx
-├── store/            # Zustand stores
-│   ├── authStore.ts
-│   └── vibeStore.ts
-├── services/         # API & utility services
-│   └── locationService.ts
-└── App.tsx          # Root component with navigation
-
-```
-
-## 🎨 Design
-
-- **Dark Theme**: Elegant dark interface with cyan accents (#00d9ff)
-- **South African Focus**: Language and culture-specific features
-- **Mobile-First**: Designed for iOS and Android
 
 ## 🔄 Workflow
 
@@ -126,23 +65,12 @@ src/
 
 ## 🔒 Privacy & Safety
 
-- User data is encrypted
-- Voice recordings stored securely
+- User data is encrypted from end to end 
 - No unsolicited messaging
 - Report & block features (coming soon)
 
 ## 📝 License
 
 MIT License - see LICENSE file for details
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 💬 Support
-
-For support, contact us at support@litcrowd.app
-
----
 
 **Finding your vibe, one connection at a time.** 🎵
